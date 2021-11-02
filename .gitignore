@@ -1,0 +1,6 @@
+# /public/build/
+
+.DS_Store
+.idea
+.venv
+.node_modules
