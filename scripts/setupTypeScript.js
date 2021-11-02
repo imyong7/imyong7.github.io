@@ -80,8 +80,8 @@ const tsconfig = `{
   "extends": "@tsconfig/svelte/tsconfig.json",
 
   "include": ["src/**/*"],
-  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
-}`
+  "exclude": ["node_modules/*", "__sapper__/*"] 
+}` // , "public/*"
 const tsconfigPath =  path.join(projectRoot, "tsconfig.json")
 fs.writeFileSync(tsconfigPath, tsconfig)
 
